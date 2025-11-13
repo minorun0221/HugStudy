@@ -1,9 +1,12 @@
 @media screen and (max-width: 767px) {
+    .wrapper {
+        width: 300px;
+    }
     .header {
         width: 300px;
     }
     .left {
-        width: 200px;
+        width: 100px;
     }
     .center-upper {
         width: 125px;
@@ -11,7 +14,7 @@
     .right {
         width: 75px;
     }
-    .center-upper {
+    .center-middle {
         width: 125px;
     }
     .center-right-bottom {
@@ -40,12 +43,13 @@
         height: 100px;
         float: none;
     }
-    .center-upper {
+    .center-middle {
         width: 150px;
         float: none;
     }
     .center-right-bottom {
         width: 150px;
+        height: 100px;
         float: none;
     }
     .footer {
