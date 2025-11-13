@@ -25,7 +25,9 @@
     }
 }
 @media screen and (max-width: 479px) {
-    
+    .wrapper {
+        width: 150px;
+    }
      .header {
         width: 150px;
     }
