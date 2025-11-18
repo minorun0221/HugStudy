@@ -10,8 +10,8 @@
         width: 60px;
         height: 160px;
         margin-top: 20px;
-        margin-left: 70px;
-        float: left;
+        margin-right: 70px;
+        float: right;
     }
     .inner-left {
         margin-top: 10px;
@@ -32,12 +32,11 @@
     .left {
         float: none;
         width: 200px;
-        height: 100px;
+
     }
     .right {
-    
         width: 200px;
-        height: 200px;
+
     }
 
     .right-upper {
@@ -58,5 +57,5 @@
 
     .footer {
         width: 200px;
-        height: 150px;
+
     }
