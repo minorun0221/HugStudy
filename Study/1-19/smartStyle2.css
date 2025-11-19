@@ -3,13 +3,13 @@
         width: 200px;
     }
     .header {
-        width: 200px;
-        height: 200px
+        width: 60px;
+        height: 160px;
+        padding: 20px 70px 20px;
     }
     .head-right {
         width: 40px;
         height: 140px;
-        margin: 20px 70px 0 0;
         float: right;
     }
     .inner-left {
@@ -27,28 +27,14 @@
     .left {
         float: none;
         width: 200px;
-
+        height: 100px;
     }
     .right {
-        width: 200px;
-
+        width: 110px;
+        padding-top: 20px;
+        padding-left: 30px;
     }
 
-    .right-upper {
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-
-
-    .right-middle {
-        margin-top: 10px;
-        margin-left: 30px;
-    }
-
-    .right-bottom {
-        margin-top: 10px;
-        margin-left: 30px;
-    }
 
     .footer {
         width: 200px;
