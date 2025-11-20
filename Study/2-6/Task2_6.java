@@ -11,7 +11,7 @@ public class Task2_6 {
         String hogeString = "テスト";
 
         // ③下記の処理について、何をしているのかコメントを記入してください
-        // [double型の hogeInt という名前の変数を宣言し、値「0.8」で初期化]
+        // [double型の hogeDouble という名前の変数を宣言し、値「0.8」で初期化]
 
         double hogeDouble = 0.8;
 
