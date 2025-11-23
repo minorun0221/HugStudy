@@ -10,27 +10,24 @@ public class Task2_8 {
 
     // ① 5 と 16 を加算した値を代入する、変数 plus を作成して下さい。
     
-        int plus = 0;
-        plus = 5 + 16;
+        int plus = 5 + 16;
 
 
      // ② 27 から 7 を減算した値を代入する、変数 minus を作成して下さい。
 
-        int minus = 0;
-        minus = 27 - 7;
+        int minus = 27 - 7;
 
 
 
      
     // ③下記の処理について、何をしているのかコメントを記入して下さい。
-    // [変数 multiply を作成し、10と2を乗算する]
+    // [10 と 2 を乗算した値を代入する、変数 multiply を作成]
     
         int multiply = 10 * 2;
 
     // ④ 20 を 6 で割った余りを代入する、変数 remi を作成して下さい。
 
-        int remi = 0;
-        remi = 20 % 6;
+        int remi = 20 % 6;
 
 
 
