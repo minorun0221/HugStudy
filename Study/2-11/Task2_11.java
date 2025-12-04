@@ -29,7 +29,8 @@ public class Task2_11 {
     System.out.println(" 積： " + (a * b) );
     System.out.println(" 商： " + (a / b) ); 
     System.out.println(" 余り： " + (a % b) );
-
+    
+    
     
 
 
@@ -39,11 +40,11 @@ public class Task2_11 {
     * int型の配列を宣言し、1から20までの偶数を格納して、ループを使用してそれらの整数を順番に表示して下さい。
     */
 
-    for(int i = 1; i <= 20; i++){
-        if(i % 2 == 0){
-                System.out.println(i);
+    int[] n = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+        for(int j = 0; j < n.length; j++){
+            System.out.println(n[j]);
         }
-    }
+    
 
     /*
     * int型の配列「numbers」内の奇数の合計を、メソッド「sumOddNumbers」を使って表示して下さい。
@@ -58,6 +59,7 @@ public class Task2_11 {
     int add = 0;
 
     for (int i = 0; i < numbers.length; i++) {
+
     //問題③ 奇数かどうかの判定をするために、for文で取得したnumberを2で割り、余りが0にならないような条件文(if文)を記載して下さい。
         if(i % 2 == 0){
         add += numbers[i];
@@ -65,5 +67,6 @@ public class Task2_11 {
     }
     return add;
     }
-}
+    }
+
 
