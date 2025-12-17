@@ -36,7 +36,9 @@ public class Task2_15 {
         // ④ bike1とbike2のtypeを変更する(出力結果通りに)
     
         
-        String Bike;
+        bike1.type="250cc";
+        bike2.type="250cc";
+        
         
        
         
