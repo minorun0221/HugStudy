@@ -27,7 +27,6 @@ public class Task2_15 {
 
        // ③ bike1とbike2にcheckを設定する(出力結果通りに)
     
-        String check;
         bike1.run();
         bike2.stop();
         
@@ -36,7 +35,9 @@ public class Task2_15 {
     
         // ④ bike1とbike2のtypeを変更する(出力結果通りに)
     
-        String type;
+        
+        String Bike;
+        
        
         
         
