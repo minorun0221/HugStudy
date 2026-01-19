@@ -25,20 +25,16 @@ public class Task2_16 {
         }
     }
 
-    static //② メソッドを定義しなさい。
+    //② メソッドを定義しなさい。
     // メソッド名：getName
     // 修飾子：public
     // 引数には①で定義したfirstNameとlastNameを引数で受け取り、
     // 連結した値を戻り値とする変数を定義しなさい。
     
-    String getName(String firstName, String lastName) {
+    public static String getName(String firstName, String lastName) {
         return firstName + lastName;
     }
-    public static void print(String getName) {
-        System.out.println(getName);
-    }
-    
-
+ 
     //奇数の判定を行う。
     public static void isOdd(int num) {
         if(num % 2 != 0) {
